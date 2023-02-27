@@ -1,0 +1,53 @@
+.fifth__section__container{
+background-color: #f2f2f2;
+/* width: 99.999vw; */
+height: 40vh;
+}
+
+.fifth__section__title{
+ font-weight: bolder;
+ font-size: 2rem;
+ width: 90%;
+ margin: auto;
+ padding-top: 24px;
+ text-align: left;
+}
+
+.fifth__section__info{
+    color: gray;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    text-align:left;
+}
+
+.fifth__section__cards__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height:100%;
+    margin: auto;
+}
+
+.fifth__section__card{
+
+    width:25%;
+    height: 55%;
+    margin: 0px 5% 0px 0px;
+    box-shadow:
+     0 -3em 3em rgba(0,0,0,0.1),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.fifth__section__icon{
+    font-size: 2rem;
+    margin-top: 5%;
+    color: #13468A;
+}
+
+
+.fifth__section__card__color__info{
+    color: #13468A;
+    text-decoration: underline;
+}

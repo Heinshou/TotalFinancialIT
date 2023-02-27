@@ -1,0 +1,96 @@
+.first__section__container{
+    /* width: 100%; */
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav__container{
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 100%; */
+    overflow: hidden;
+}
+
+.logo__nav{
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.buttons__nav__container{
+    height: 100%;
+    width: 50%;
+    display: flex; /* Flex */
+    justify-content: end;
+    align-items: center;
+}
+
+.nav__button{
+    width: 20%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.social__media__icons__container{
+ display: flex;
+ align-items: center;
+ justify-content:space-evenly;
+ height: 100%;
+ width: 35%;
+ font-size: 170%;
+ color: white;
+}
+
+.nav__line{
+    height: 80%;
+    width:2px;
+    background-color: white;
+}
+
+.icons__social__media{
+    /* margin: 0px 5% 0px 10%; */
+}
+
+.information__container{
+    height: 30vh;
+    width: 90%;
+    margin:auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information__title{
+    display: block;
+    width: 80%;
+    font-size: 3rem;
+    color: white;
+
+}
+
+.information__text{
+    margin: auto;
+    color: white;
+    font-size: 1rem;
+    width: 60%;
+}
+
+.information__button{
+    margin-top: 5%;
+    height: 6%;
+    width: 15%;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: none;
+}
