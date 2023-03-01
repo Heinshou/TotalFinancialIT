@@ -3,6 +3,10 @@ import React from 'react'
 import { BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 
+// Components
+import NavToggleMenu from './NavToggleMenu'
+
+
 // Images
 import Logo from '../../src/assets/img/Logo.png'
 
@@ -22,6 +26,7 @@ const Nav = () => {
           <BsInstagram className='icons__social__media' />
         </div>
       </div>
+      <NavToggleMenu/>
     </div>
   )
 }

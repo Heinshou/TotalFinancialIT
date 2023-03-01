@@ -10,6 +10,9 @@ import ThirdStep from './ThirdStep'
 //Style
 import '../../src/Styles/sixthSection.css'
 
+// Image
+
+import formImage from '../../src/assets/img/formImage.jpeg'
 
 const SixthSection = () => {
     const [page, setPage] = useState(1)
@@ -38,6 +41,11 @@ const SixthSection = () => {
                 ''
             }
         </div>
+        <div className="sixth__section__image__container">
+            <div className='sixth__section__circle'></div>
+            <div className='sixth__section__circle2'></div>
+            <img src={formImage} alt="imagen formulario" className='sixth__section__image__form' />
+        </div>  
     </div>
   )
 }

@@ -44,4 +44,86 @@
 }
 
 
+@media screen and (min-width:2060px) {
 
+    .third__section__title{
+        font-size: 2.8rem;
+    }
+    
+    .third__section__information{
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    
+    .third__section__button{
+        font-size: 1.2rem;
+      
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .third__section__title{
+        font-size: 1.5rem;
+    }
+
+    .third__section__information{
+        font-size: 0.9rem;
+    }
+
+    .third__section__button{
+        font-size: .8rem;
+      
+    }
+
+    .third__section__image{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .third__section__title{
+        font-size: 1.3rem;
+    }
+
+    .third__section__information{
+        font-size: 0.9rem;
+    }
+
+    .third__section__button{
+        font-size: .7rem;
+      
+    }
+
+    .third__section__image{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .third__section__container{
+        height: 40vh;
+    }
+
+    .third__section__info__container{
+        width: 75%;
+    }
+
+    .third__section__title{
+        font-size: .9rem;
+    }
+
+    .third__section__information{
+        font-size: .6rem;
+    }
+
+    .third__section__button{
+        font-size: .6rem;
+        width: 50%;
+      
+    }
+
+    .third__section__image{
+      display: none;
+    }
+}

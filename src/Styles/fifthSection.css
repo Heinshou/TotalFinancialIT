@@ -1,7 +1,7 @@
 .fifth__section__container{
 background-color: #f2f2f2;
 /* width: 99.999vw; */
-height: 40vh;
+height: 45vh;
 }
 
 .fifth__section__title{
@@ -19,12 +19,13 @@ height: 40vh;
     height: 20%;
     margin: auto;
     text-align:left;
+    margin-block-start: 0px;
 }
 
 .fifth__section__cards__container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     width: 90%;
     height:100%;
     margin: auto;
@@ -50,4 +51,65 @@ height: 40vh;
 .fifth__section__card__color__info{
     color: #13468A;
     text-decoration: underline;
+}
+
+@media screen and (min-width:2060px) {
+
+    .fifth__section__container{
+        height: 50vh;
+    }
+    .fifth__section__title{
+        font-size: 3rem;
+    }
+
+    .fifth__section__info{
+        font-size: 1.5rem;
+    }
+
+    .fifth__section__cards__container{
+        align-items: baseline;
+    }
+
+    .fifth__section__card{
+        width: 20%;
+        height: 40%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .fifth__section__container{
+        height: 45vh;
+    }
+    .fifth__section__title{
+        font-size: 1.5rem;
+    }
+
+    .fifth__section__info{
+        font-size: 1rem;
+    }
+
+    .fifth__section__cards__container{
+        align-items: baseline;
+        justify-content: space-around;
+        height: 80%;
+    }
+
+    .fifth__section__card{
+        width: 35%;
+        height: 40%;
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .fifth__section__container{
+        height: 50vh;
+    }
+
+    .fifth__section__card{
+        font-size: .5rem;
+        margin: 3px;
+    }
 }

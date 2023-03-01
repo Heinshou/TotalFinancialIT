@@ -87,3 +87,131 @@
     margin-top: 5%;
     padding: 1.5% 2.5% 1.5% 2.5%;
 }
+
+@media screen and (min-width:2060px) {
+    .fourth__section{
+        height: 60vh;
+    }
+
+    .fourt__section__title{
+        font-size: 4rem;
+    }
+
+    .fourth__section__info{
+        font-size: 1.5rem;
+    }
+
+    .fourth__section__button{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .fourth__section{
+        height: 35vh;
+    }
+
+    .fourt__section__title{
+        font-size: 2rem;
+    }
+
+    .fourth__section__info{
+        font-size: .8rem;
+    }
+
+    .fourth__section__button{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .fourth__section{
+        height: 27vh;
+    }
+
+    .fourt__section__title{
+        font-size: 1rem;
+    }
+
+    .fourth__section__info{
+        font-size: .6rem;
+    }
+
+    .fourth__section__button{
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .fourth__section{
+        height: 40vh;
+    }
+
+    .images__container{
+        padding: 0px;
+        /* display: none; */
+    }
+
+    .fourth__section__info__container{
+        width: 75%;
+        margin: auto;
+    }
+
+    .fourth__section__image__one{
+        position: relative;
+    left: 48%;
+    top: -23%;
+    background-color: #2c4567;
+    width: 45%;
+    border-radius: 5%;
+    }
+
+    .fourth__section__image__two{
+        position: relative;
+    top: 12%;
+    border-radius: 5%;
+    background-color: #2c4567;
+    width: 45%;
+    left: 3%;
+    }
+
+    .fourth__section__image__three{
+        position: relative;
+    top: 47%;
+    left: -46%;
+    height: 36%;
+    border-radius: 5%;
+    background-color: #2c4567;
+    width: 45%;
+    }
+
+    .fourth__section__image__four{
+        position: relative;
+    background-color: #2c4567;
+    width: 45%;
+    /* height: 50%; */
+    border-radius: 5%;
+    bottom: -9%;
+    left: -1%;
+    }
+
+
+    .fourt__section__title{
+        font-size: 1.4rem;
+        padding-left: 5px;
+        margin-top: 0px;
+    }
+
+    .fourth__section__info{
+        font-size: .8rem;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .fourth__section__button{
+        font-size: .8rem;
+        margin-left: 0px;
+    }
+}
