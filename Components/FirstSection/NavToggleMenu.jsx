@@ -9,9 +9,7 @@ const NavToggleMenu = () => {
     const [menuIcon, setMenuIcon] = useState(true)
   
     
-  console.log(menuIcon)
    useEffect(() => {
-      console.log(menuIcon)
    
      return () => {
       

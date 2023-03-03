@@ -17,8 +17,6 @@ import formImage from '../../src/assets/img/formImage.jpeg'
 const SixthSection = () => {
     const [page, setPage] = useState(1)
 
-    console.log(page)
-
   return (
     <div className='sixth__section__container'>
         <div className="form__container">  
