@@ -49,6 +49,13 @@
     margin-top: 5%;
 }
 
+@media screen and (max-width:425px) { 
+    .drYctf{
+        height: 300px !important;
+    }
+    
+}
+
 /* .second__section__container{
  position: relative;
   width: 100%; 

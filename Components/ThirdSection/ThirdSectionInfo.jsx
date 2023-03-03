@@ -12,7 +12,7 @@ const ThirdSectionInfo = () => {
           de financiamiento del sector de TI a aquellas con una visión de desarrollo, 
           consolidación, viabilidad, productividad, competitividad y sustentabilidad.
         </p>
-        <button className="third__section__button">Financiamiento</button>
+        <button className="third__section__button" onClick={() => window.scrollTo(4000, 4000)}>Financiamiento</button>
     </div>
   )
 }

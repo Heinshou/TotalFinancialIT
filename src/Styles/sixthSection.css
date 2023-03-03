@@ -175,6 +175,13 @@
     border-radius: 9999px;
 }
 
+@media screen and (max-width:768px) {
+    .timeline__circle{
+        height: 40px;
+    }
+    
+}
+
 @media screen and (max-width:425px) {
     .sixth__section__container{
         display: grid;
@@ -195,5 +202,9 @@
 
     .third__input__container{
         grid-template-rows: 25% 10% 10% 40% 10% ;
+    }
+
+    .sixth__section__image__container{
+        height: 0px;
     }
 }

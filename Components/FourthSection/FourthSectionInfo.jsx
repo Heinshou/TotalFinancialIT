@@ -11,7 +11,7 @@ const FourthSectionInfo = () => {
           y una ejecución perfecta mientras mitigan todos los 
           riesgos potenciales.
         </p>
-        <button className="fourth__section__button">Quiero asesoría para mi financiamiento</button>
+        <button className="fourth__section__button" onClick={() => window.scrollTo(4000, 4000)}>Quiero asesoría para mi financiamiento</button>
     </div>
   )
 }

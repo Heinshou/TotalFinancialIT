@@ -77,6 +77,20 @@ height: 45vh;
     }
 }
 
+@media screen and (max-width:768px) {
+    .fifth__section__title{
+        margin-top: 8%;
+    }
+
+    .fifth__section__cards__container{
+        height: 50%;
+    }
+
+    .fifth__section__card{
+        height: 80%;
+    }
+}
+
 @media screen and (max-width:425px) {
 
     .fifth__section__container{
@@ -112,5 +126,6 @@ height: 45vh;
     .fifth__section__card{
         font-size: .5rem;
         margin: 3px;
+        height: 45%;
     }
 }

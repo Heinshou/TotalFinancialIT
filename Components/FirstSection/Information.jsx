@@ -8,7 +8,7 @@ const Information = () => {
     </div>
       <p className='information__text'>Ayudamos a los empresarios a alcanzar nuevos niveles de ejecución, sin necesidad de
         generar grandes inversiones</p>
-      <button className='information__button'> ¡Solicítalo Ahora!</button>
+      <button className='information__button' onClick={() => window.scrollTo(4000, 4000)}> ¡Solicítalo Ahora!</button>
       </>
   )
 }
