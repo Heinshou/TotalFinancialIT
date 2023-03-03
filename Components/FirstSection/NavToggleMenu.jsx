@@ -30,9 +30,9 @@ const NavToggleMenu = () => {
           <button className="toggle__menu__button">Inicio</button>
           <button className="toggle__menu__button">Contacto</button>
           <div className='toggle__menu__social__media__icons__container'>
-          <BsFacebook className='toggle__menu__icons__social__media' />
-          <BsLinkedin className='toggle__menu__icons__social__media' />
-          <BsInstagram className='toggle__menu__icons__social__media' />
+          <a href="https://www.facebook.com/Total-It-Financial-108172852200431" className='nav__link__color'><BsFacebook className='icons__social__media'/></a>
+          <a href="https://www.linkedin.com/company/total-it-financial/" className='nav__link__color'><BsLinkedin className='icons__social__media'/></a>
+          <a href="https://www.instagram.com/total_it_financial/" className='nav__link__color'><BsInstagram className='icons__social__media'/></a>
           </div>
         </div>
 

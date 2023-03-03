@@ -82,6 +82,10 @@
 }
 
 @media screen and (max-width:768px) {
+    .third__section__container{
+        height: 60vh;
+    }
+
     .third__section__title{
         font-size: 1.3rem;
     }
@@ -92,6 +96,7 @@
 
     .third__section__button{
         font-size: .7rem;
+        width: 30%;
       
     }
 
@@ -103,6 +108,7 @@
 @media screen and (max-width:425px) {
     .third__section__container{
         height: 40vh;
+        align-items: initial;
     }
 
     .third__section__info__container{
@@ -110,15 +116,15 @@
     }
 
     .third__section__title{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
 
     .third__section__information{
-        font-size: .6rem;
+        font-size: .8rem;
     }
 
     .third__section__button{
-        font-size: .6rem;
+        font-size: .8rem;
         width: 50%;
       
     }

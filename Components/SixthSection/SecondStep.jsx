@@ -16,10 +16,10 @@ const SecondStep = ({ page, setPage }) => {
             <p className="step__title">Sobre tu empresa</p>
             <input type="text" className="form__input" placeholder='Nombre del Proyecto' />
             <input type="text" className="form__input" placeholder='Sobre tu Proyecto' />
-            <input type="text" className="form__input" placeholder='Descripcion' />
+            <input type="text" className="form__input" placeholder='Descripción' />
             <input type="number" className="form__input" placeholder='Financiamiento' />
             <div className="buttons__container">
-                <button className='form__button second__step__button' onClick={() => setPage(page - 1)}>Atras</button>
+                <button className='form__button second__step__button' onClick={() => setPage(page - 1)}>Atrás</button>
                 <button className='form__button second__step__button form__right__button' onClick={() => setPage(page + 1)}>Siguiente</button>
             </div>
         </div>

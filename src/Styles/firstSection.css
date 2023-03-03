@@ -54,6 +54,10 @@
 
 }
 
+.nav__link__color{
+    color: white;
+}
+
 .nav__line{
     height: 80%;
     width:2px;

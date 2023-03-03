@@ -11,7 +11,7 @@ const FourthSectionInfo = () => {
           y una ejecución perfecta mientras mitigan todos los 
           riesgos potenciales.
         </p>
-        <button className="fourth__section__button">Quiero asesoría para mí financiamiento</button>
+        <button className="fourth__section__button">Quiero asesoría para mi financiamiento</button>
     </div>
   )
 }
