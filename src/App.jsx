@@ -17,7 +17,7 @@ function App() {
 
   return (
    <div>
-      <FirstSection/>
+      <FirstSection/> 
       <SecondSection/>
       <ThirdSection/>
       <FourthSection/>

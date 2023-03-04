@@ -1,41 +1,3 @@
-.rec.rec-arrow {
-    /* color: rgb(255, 255, 255);
-    background-color: #13468A;
-    box-shadow: rgb(51 51 51) 0px 0px 2px 0px; */
-    border-radius: 0;
-
-}
-
-.YgJtd{
-    background-color: #f2f2f2;
-}
-
-.rec.rec-arrow:disabled {
-    visibility: hidden;
-}
-
-.rec.rec-arrow:hover:enabled {
-    border-radius: 50%;
-    color: rgb(255, 255, 255);
-    background-color: #13468A;
-    box-shadow: rgb(51 51 51) 0px 0px 2px 0px;
-}
-
-
-.dcYvsJ{ 
-    background-color: #609aec !important;
-    box-shadow:  #13468A 0px 0px 1px 3px !important;
-}
-
-.YgJtd{
-    width: 90% !important;
-    margin-left: 5% !important;
-}
-
-.hcZHLS{
-    padding: 20px !important;
-}
-
 .second__section__title{
     background-color: #f2f2f2;
     margin-top: 5%;
@@ -44,23 +6,20 @@
     margin-block-end: 0px ;
 }
 
-.card__icon{
-    font-size: 3rem;
-    margin-top: 5%;
-}
 
-@media screen and (max-width:425px) { 
-    .drYctf{
-        height: 300px !important;
-    }
-    
-}
-
-/* .second__section__container{
+ .second__section__container{
  position: relative;
   width: 100%; 
  height: 100vh;
  background-color: #f2f2f2;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 500;
+
+}
+
+.card__icon{
+    font-size: 3.5rem;
+    margin: auto;
 }
 
 .cards__sections1{
@@ -70,9 +29,9 @@
     left: 20%;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-    background-color: #f2f2f2;
+    background-color: white;
     color: #13468A;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     border-radius: 5%;
     margin-top: 3%;
 }
@@ -86,30 +45,52 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-color: #f2f2f2;
+    background-color: white;
     color: #13468A;
     border-radius: 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
+.big__back__card{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 70%;
+    backface-visibility: hidden;
+    background-color: white;
+    color: #13468A;
+    transform: rotateY(180deg);
+    font-size: 1.2rem;
+    border-radius: 5%;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .back__card{
     position: absolute;
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 90%;
     backface-visibility: hidden;
-    background-color: #f2f2f2;
+    background-color: white;
     color: #13468A;
     transform: rotateY(180deg);
     font-size: 110%;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    margin: 10%;
+    margin-top: 0px;
 }
 
 .front__card__title{
     font-size: 1.7rem;
+    padding: 5%;
+    font-weight: 500;
 }
 
 .cards__sections2{
@@ -118,9 +99,9 @@
     height: 25%;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-    background-color: #f2f2f2;
+    background-color: white;
     left: 60%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
     margin-top: 3%;
@@ -136,10 +117,10 @@
     height: 25%;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-    background-color: #f2f2f2;
-    top: 30%;
+    background-color: white;
+    top: 32%;
     left: 20%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
     margin-top: 3%;
@@ -155,10 +136,10 @@
     height: 25%;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-    background-color: #f2f2f2;
-    top: 30%;
+    background-color: white;
+    top: 32%;
     left: 60%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
     margin-top:3%;
@@ -174,10 +155,10 @@
     height: 25%;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-    background-color: #f2f2f2;
+    background-color: white;
     top: 60%;
     left: 20%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
     margin-top: 3%;
@@ -193,10 +174,10 @@
     height: 25%;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-    background-color: #f2f2f2;
+    background-color: white;
     top: 60%;
     left: 60%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
     margin-top: 3%;
@@ -204,6 +185,8 @@
 
 .front__card__title6{
     font-size: 1.5rem;
+    padding: 5%;
+    font-weight: 500;
 }
 
 .cards__sections6:hover{
