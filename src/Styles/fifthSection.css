@@ -47,7 +47,9 @@ height: 45vh;
 .fifth__section__icon{
     font-size: 2rem;
     margin:auto;
-    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #13468A;
 }
 
@@ -57,7 +59,7 @@ height: 45vh;
     text-decoration: underline;
 }
 
-@media screen and (min-width:2060px) {
+@media screen and (min-width:1800px) {
 
     .fifth__section__container{
         height: 50vh;
@@ -76,7 +78,7 @@ height: 45vh;
 
     .fifth__section__card{
         width: 20%;
-        height: 40%;
+        height: 60%;
         font-size: 1.5rem;
     }
 }
@@ -87,7 +89,7 @@ height: 45vh;
     }
 
     .fifth__section__cards__container{
-        height: 50%;
+        height: 80%;
     }
 
     .fifth__section__card{

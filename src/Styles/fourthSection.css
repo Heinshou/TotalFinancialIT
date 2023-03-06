@@ -89,7 +89,7 @@
     padding: 1.5% 2.5% 1.5% 2.5%;
 }
 
-@media screen and (min-width:2060px) {
+@media screen and (min-width:1800px) {
     .fourth__section{
         height: 60vh;
     }
@@ -108,8 +108,6 @@
 
 }
 
-@media screen and (min-width:1500px) {
-}
 
 @media screen and (max-width:1050px) {
     .fourth__section{

@@ -101,7 +101,7 @@
     border: none;
 }
 
-@media screen and (min-width:2060px) {
+@media screen and (min-width:1800px) {
     .buttons__nav__container{
         margin-left: 10% ;
         font-size: 2rem;
