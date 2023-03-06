@@ -206,6 +206,14 @@
         font-size: 1.2rem;
     }
 
+    .big__back__card{
+        font-size: .9rem;
+    }
+
+    .back__card{
+        font-size: .9rem;
+    }
+
     .card__icon__resolution{
         margin-top: 15%;
     }
