@@ -39,11 +39,9 @@ const SixthSection = () => {
                 ''
             }
         </div>
-        <div className="sixth__section__image__container">
-            <div className='sixth__section__circle'></div>
-            <div className='sixth__section__circle2'></div>
+        {/* <div className="sixth__section__image__container">
             <img src={formImage} alt="imagen formulario" className='sixth__section__image__form' />
-        </div>  
+        </div>   */}
     </div>
   )
 }

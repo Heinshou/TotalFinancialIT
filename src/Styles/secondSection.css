@@ -20,6 +20,7 @@
 .card__icon{
     font-size: 3.5rem;
     margin: auto;
+    margin-top: 5%;
 }
 
 .cards__sections1{
@@ -51,40 +52,42 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    grid-template-rows: 40% 60%;
 }
 
 .big__back__card{
     position: absolute;
     display: flex;
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     backface-visibility: hidden;
-    background-color: white;
-    color: #13468A;
+    background-color: #13468A;
+    color: white;
     transform: rotateY(180deg);
     font-size: 1.2rem;
     border-radius: 5%;
-    margin: 10%;
     justify-content: center;
     align-items: center;
+    padding: 0px 15px 0px 15px;
 }
 
 
 .back__card{
     position: absolute;
     display: flex;
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     backface-visibility: hidden;
-    background-color: white;
-    color: #13468A;
+    background-color: #13468A;
+    color: white;
     transform: rotateY(180deg);
     font-size: 110%;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
-    margin: 10%;
-    margin-top: 0px;
+    padding: 0px 15px 0px 15px;
+    /* margin: 10%;
+    margin-top: 0px; */
 }
 
 .front__card__title{
@@ -118,7 +121,7 @@
     transform-style: preserve-3d;
     transition: all 1.5s ease;
     background-color: white;
-    top: 32%;
+    top: 33%;
     left: 20%;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
@@ -137,7 +140,7 @@
     transform-style: preserve-3d;
     transition: all 1.5s ease;
     background-color: white;
-    top: 32%;
+    top: 33%;
     left: 60%;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
@@ -156,7 +159,7 @@
     transform-style: preserve-3d;
     transition: all 1.5s ease;
     background-color: white;
-    top: 60%;
+    top: 61%;
     left: 20%;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
@@ -175,7 +178,7 @@
     transform-style: preserve-3d;
     transition: all 1.5s ease;
     background-color: white;
-    top: 60%;
+    top: 61%;
     left: 60%;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
@@ -193,4 +196,140 @@
     transform: rotateY(180deg);
 }
 
+
+@media screen and (max-width: 1050px) {
+    .front__card__title{
+        font-size: 1.5rem;
+    }
+
+    .front__card__title6{
+        font-size: 1.2rem;
+    }
+
+    .card__icon__resolution{
+        margin-top: 15%;
+    }
+
+    .cards__sections3{
+        top: 35%;
+    }
+
+    .cards__sections4{
+        top: 35%;
+    }
+
+    .cards__sections5{
+        top: 63%;
+    }
+
+    .cards__sections6{
+        top: 63%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .front__card__title{
+        font-size: 1.2rem;
+    }
+
+    .front__card__title6{
+        font-size: 1rem;
+    }
+
+    .back__card{
+        font-size: .8rem;
+    }
+
+    .big__back__card{
+        font-size: .8rem;
+    }
+
+    .card__icon__resolution{
+        margin-top: 20%;
+    }
+
+    .cards__sections1{
+        width: 25%;
+    }
+
+    .cards__sections2{
+        width: 25%;
+    }
+
+    .cards__sections3{
+        top: 36%;
+        width: 25%;
+    }
+
+    .cards__sections4{
+        top: 36%;
+        width: 25%;
+    }
+
+    .cards__sections5{
+        top: 64%;
+        width: 25%;
+    }
+
+    .cards__sections6{
+        top: 64%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .front__card__title{
+        font-size: 1.2rem;
+    }
+
+    .front__card__title6{
+        font-size: 1rem;
+    }
+
+    .back__card{
+        font-size: .8rem;
+    }
+
+    .big__back__card{
+        font-size: .8rem;
+    }
+
+    .card__icon__resolution{
+        margin-top: 20%;
+    }
+
+    .cards__sections1{
+        width: 40%;
+        left: 6%;
+    }
+
+    .cards__sections2{
+        width: 40%;
+        left: 53%;
+    }
+
+    .cards__sections3{
+        top: 44%;
+        width: 40%;
+        left: 6%;
+    }
+
+    .cards__sections4{
+        top: 44%;
+        width: 40%;
+        left: 53%;
+    }
+
+    .cards__sections5{
+        top: 73%;
+        width: 40%;
+        left: 6%;
+    }
+
+    .cards__sections6{
+        top: 73%;
+        width: 40%;
+        left: 53%;
+    }
+}
 

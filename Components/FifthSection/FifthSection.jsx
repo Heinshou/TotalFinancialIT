@@ -23,10 +23,10 @@ const FiftSection = () => {
         </div>
         <div className="fifth__section__card">
           <AiOutlineMail className='fifth__section__icon'/>
-          <p className='fifth__section__card__info'>contacto@TotalIT.mx</p>
+          <p className='fifth__section__card__info__email'>contacto@TotalIT.mx</p>
           <p className='fifth__section__card__color__info'>¡Escríbenos!</p>
         </div>
-        <div className="fifth__section__card">
+        <div className="fifth__section__card ">
           <GoLocation className='fifth__section__icon'/>
           <p className='fifth__section__card__info'>Av. Agustin Yañez 2457</p>
           <p className='fifth__section__card__color__info'>Guadalajar, Jalisco, México.</p>

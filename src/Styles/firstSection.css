@@ -309,3 +309,10 @@
         width: 35%;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .information__button{
+        width: 40%;
+    }
+}

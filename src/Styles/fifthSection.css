@@ -32,18 +32,22 @@ height: 45vh;
 }
 
 .fifth__section__card{
-
+    display: grid;
+    align-items: center;
+    justify-content: center;
     width:25%;
-    height: 55%;
+    height: 58%;
     margin: 0px 5% 0px 0px;
     box-shadow:
      0 -3em 3em rgba(0,0,0,0.1),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
 }
 
 .fifth__section__icon{
     font-size: 2rem;
-    margin-top: 5%;
+    margin:auto;
+    margin-top: 20%;
     color: #13468A;
 }
 
@@ -77,7 +81,7 @@ height: 45vh;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     .fifth__section__title{
         margin-top: 8%;
     }
@@ -91,7 +95,7 @@ height: 45vh;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:450px) {
 
     .fifth__section__container{
         height: 45vh;
@@ -113,8 +117,9 @@ height: 45vh;
 
     .fifth__section__card{
         width: 35%;
-        height: 80%;
+        height: 100%;
         font-size: .7rem;
+        margin: 0% 3% 0% 0%;
     }
 }
 
@@ -124,8 +129,21 @@ height: 45vh;
     }
 
     .fifth__section__card{
-        font-size: .5rem;
+        font-size: .7rem;
         margin: 3px;
-        height: 45%;
+        height: 80%;
+    }
+
+    .fifth__section__card__info{
+        padding: 0px 8px 0px 8px;
+    }
+
+    .fifth__section__card__info__email{
+        padding: 0px 8px 0px 8px;
+        font-size: .6rem;
+    }
+
+    .fifth__section__icon{
+        font-size: 1.3rem;
     }
 }
