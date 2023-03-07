@@ -1,6 +1,11 @@
 import React from 'react'
 
-const FirstStep = ({ page, setPage }) => {
+const FirstStep = ({ page, setPage, information, setInformation }) => {
+
+  const onSubmit = (data) => {
+    console.log(data)
+  }
+
   return (
     <div className='inputs__contaner'>
       <p className='sixth__section__title' >Habla con Nosotros</p>
@@ -14,12 +19,14 @@ const FirstStep = ({ page, setPage }) => {
         <div className='timeline__line  empty__line'></div>
       </div>
       <p className="step__title">Contacto</p>
-      <input type="text" className="form__input" placeholder='Nombre' />
-      <input type="email" className="form__input" placeholder='Email' />
-      <input type="number" className="form__input" placeholder='Teléfono' />
+      <form action="" onSubmit={handleSubmit(onSubmit)}>
+      <input type="text" className="form__input" placeholder='Nombre' id='nombre' name='nombre'/>
+      <input type="email" className="form__input" placeholder='Email' id='email' name='email' />
+      <input type="number" className="form__input" placeholder='Teléfono'id='telefono' name='telefono'/>
       <div className="buttons__container">
-        <button className='form__button first__step__button' onClick={() => setPage(page + 1)}>Siguiente</button>
+        <button type='submit' className='form__button first__step__button' onClick={() => setPage(page + 1)}>Siguiente</button>
       </div>
+      </form>
     </div>
   )
 }

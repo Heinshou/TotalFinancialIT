@@ -1,0 +1,276 @@
+.sixth__section__container{
+ width: 100%;
+ overflow: hidden;
+}
+
+.form__container{
+    width: 300%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    color: #13468A;
+    height: 65vh;
+}
+
+.first__step{
+    position:initial;
+    right: 0%;
+    margin-top: 10%;
+}
+
+.second__step{
+    position: absolute;
+    right: -100%;
+    margin-top: 10%;
+}
+
+.third__step{
+    margin-top: 10%;
+    position: absolute;
+    right: -0%;
+}
+
+.form__step__one__container{
+width: 33.33%;
+height: 100%;
+
+}
+
+.form__step__one__container__width{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 20% 5% 15% 15% 15% 10%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.form__step__two__container{
+        width: 33.33%;
+        height: 100%;
+
+}
+
+.form__step__two__container__width{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 20% 5% 15% 15% 15% 15% 10%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.form__step__three__container{
+width: 33.33%;
+height: 100%;
+}
+
+.form__step__three__container__width{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 20% 10% 45% 10%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.sixth__section__title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form__button{
+    background-color: white;
+    color: black;
+}
+
+.timeline__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timeline__circle {
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.timeline__line {
+    background-color: #13468A;
+    height: 15%;
+    width: 18%;
+}
+
+
+.first__circle {
+    background: rgb(19, 70, 138);
+    background: linear-gradient(90deg, rgba(19, 70, 138, 1) 0%, rgba(77, 135, 212, 1) 86%, rgba(14, 102, 219, 1) 100%);
+}
+
+.second__line {
+    background: rgb(19, 70, 138);
+    background: linear-gradient(90deg, rgba(19, 70, 138, 1) 0%, rgba(77, 135, 212, 1) 72%, rgba(14, 102, 219, 1) 100%);
+}
+
+.second__circle {
+    background: rgb(19, 70, 138);
+    background: linear-gradient(90deg, rgba(19, 70, 138, 1) 0%, rgba(77, 135, 212, 1) 58%, rgba(14, 102, 219, 1) 100%);
+}
+
+.third__line {
+    background: rgb(19, 70, 138);
+    background: linear-gradient(90deg, rgba(19, 70, 138, 1) 0%, rgba(77, 135, 212, 1) 44%, rgba(14, 102, 219, 1) 100%);
+}
+
+.third__circle {
+    background: rgb(19, 70, 138);
+    background: linear-gradient(90deg, rgba(19, 70, 138, 1) 0%, rgba(77, 135, 212, 1) 30%, rgba(14, 102, 219, 1) 100%);
+}
+
+.last__line {
+    background: rgb(19, 70, 138);
+    background: linear-gradient(90deg, rgba(19, 70, 138, 1) 0%, rgba(77, 135, 212, 1) 16%, rgba(14, 102, 219, 1) 100%);
+}
+
+
+.empty {
+    background-color: #f2f2f2;
+    /* border: 2px #13468A solid; */
+    color: black;
+}
+
+.empty__line{
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.step__title__container{
+    display: flex;
+    align-items: center;
+}
+
+.inactive{
+    display: none;
+}
+
+.active{
+    display: initial;
+}
+
+.step__title__one{
+    width: 25%;
+    margin-left: 10%;
+    font-size:2rem;
+    font-size: 150%;
+
+}
+
+.step__title__two{
+    width: 60%;
+    margin-left: 20%;
+    font-size: 2rem;
+    font-size: 150%;
+
+}
+
+.step__title__three{
+    width: 30%;
+    margin-left: 63% ;
+    font-size: 150%;
+}
+
+.form__input{
+    width: 90%;
+    margin: auto;
+    height: 50%;
+    font-size: 20px;
+}
+
+.coment__input{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.buttons__container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.form__button{
+    background-color: #13468A;
+    color: white;
+    border-radius: 5%;
+    border-color: #13468A;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__right__button{
+    margin-left: 5%;
+}
+
+.sixth__section__image__container{
+    position:relative;
+    z-index: 2;
+}
+
+.sixth__section__image__form{
+    display: none;
+    position: fixed;
+    width: 40%;
+    right: 10%;
+    top: 10%;
+}
+
+@media screen and (max-width:450px) {
+    .form__step__one__container__width {
+        width: 70%;
+    }
+
+    .form__step__two__container__width {
+        width: 70%;
+    }
+
+    .form__step__three__container__width {
+        width: 70%;
+    }
+
+    .timeline__circle {
+        height: 40px;   
+    }
+
+    .step__title__one{
+        font-size: 100%;
+    }
+
+    .step__title__two{
+        font-size: 100%;
+    }
+
+    .step__title__three{
+        font-size: 100%;
+    }
+
+    .form__button{
+        width: 35%;
+        /* height: 80%; */
+    }
+}
