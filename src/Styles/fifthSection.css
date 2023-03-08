@@ -20,6 +20,7 @@ height: 45vh;
     margin: auto;
     text-align:left;
     margin-block-start: 0px;
+    margin-left: 9%;
 }
 
 .fifth__section__cards__container{
@@ -70,6 +71,7 @@ height: 45vh;
 
     .fifth__section__info{
         font-size: 1.5rem;
+        margin-left: 7%;
     }
 
     .fifth__section__cards__container{
@@ -83,9 +85,33 @@ height: 45vh;
     }
 }
 
+
+@media screen and (max-width:1800px) {
+    .fifth__section__info{
+        margin-left: 6.5%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .fifth__section__info{
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .fifth__section__info{
+        margin-left: 7%;
+    }
+}
+
+
 @media screen and (max-width:800px) {
     .fifth__section__title{
         margin-top: 8%;
+    }
+
+    .fifth__section__info{
+        margin-left: 8%;
     }
 
     .fifth__section__cards__container{

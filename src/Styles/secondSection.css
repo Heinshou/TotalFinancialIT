@@ -34,7 +34,7 @@
     color: #13468A;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     border-radius: 5%;
-    margin-top: 3%;
+    margin-top: 3.1%;
 }
 
 .cards__sections1:hover{
@@ -107,7 +107,7 @@
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
-    margin-top: 3%;
+    margin-top: 3.1%;
 }
 
 .cards__sections2:hover{
@@ -126,7 +126,7 @@
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
-    margin-top: 3%;
+    margin-top: 3.1%;
 }
 
 .cards__sections3:hover{
@@ -145,7 +145,7 @@
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
-    margin-top:3%;
+    margin-top:3.1%;
 }
 
 .cards__sections4:hover{
@@ -164,7 +164,7 @@
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
-    margin-top: 3%;
+    margin-top: 3.1%;
 }
 
 .cards__sections5:hover{
@@ -183,7 +183,7 @@
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
     color: #13468A;
     border-radius: 5%;
-    margin-top: 3%;
+    margin-top: 3.1%;
 }
 
 .front__card__title6{
@@ -194,10 +194,6 @@
 
 .cards__sections6:hover{
     transform: rotateY(180deg);
-}
-
-@media screen and (max-width: 1400px) {
-
 }
 
 
@@ -289,7 +285,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
     .front__card__title{
         font-size: 1.2rem;
     }
