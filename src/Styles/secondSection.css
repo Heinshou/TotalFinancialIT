@@ -196,8 +196,12 @@
     transform: rotateY(180deg);
 }
 
+@media screen and (max-width: 1400px) {
 
-@media screen and (max-width: 1050px) {
+}
+
+
+@media screen and (max-width: 1500px) {
     .front__card__title{
         font-size: 1.5rem;
     }
@@ -285,7 +289,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .front__card__title{
         font-size: 1.2rem;
     }
