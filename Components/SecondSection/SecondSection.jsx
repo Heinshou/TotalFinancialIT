@@ -14,7 +14,7 @@ import '../../src/Styles/secondSection.css'
 const SecondSection = () => {
     return (
         <div className='second__section__container'>
-            <h3 className='second__section__title'>En Total IT Financial podremos:</h3>
+            <h3 className='second__section__title'>En Total IT Financial contamos con:</h3>
             <div className="cards__container">
                 <div className='cards__sections1'>
                     <div className='front__card card__one'>
@@ -59,7 +59,7 @@ const SecondSection = () => {
                 <div className='cards__sections5'>
                     <div className='front__card card__one'>
                         <AiOutlineAppstoreAdd className='card__icon' />
-                        <h2 className='front__card__title6'>Implementa Nuevos Sistemas</h2>
+                        <h2 className='front__card__title6'>Implementción de Nuevos Sistemas</h2>
                     </div>
                     <div className='back__card card_one'>
                         Invierte en innovación y desarrolla o implementa
@@ -70,7 +70,7 @@ const SecondSection = () => {
                 <div className='cards__sections6'>
                     <div className='front__card card__one'>
                         <BsFillPeopleFill className='card__icon' />
-                        <h2 className='front__card__title6'>Equipo de Profesionales Nuevos Sistemas</h2>
+                        <h2 className='front__card__title6'>Equipo de Profesionales</h2>
                     </div>
                     <div className='back__card card_one'>
                         Especialistas en el otorgamiento de asesoría

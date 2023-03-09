@@ -10,7 +10,8 @@ height: 45vh;
  width: 90%;
  margin: auto;
  padding-top: 24px;
- text-align: left;
+ text-align: center;
+ margin-top: 5%;
 }
 
 .fifth__section__info{
@@ -20,7 +21,8 @@ height: 45vh;
     margin: auto;
     text-align:left;
     margin-block-start: 0px;
-    margin-left: 9%;
+    /* margin-left: 9%; */
+    text-align: center;
 }
 
 .fifth__section__cards__container{

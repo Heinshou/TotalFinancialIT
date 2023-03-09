@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser'
 import '../../src/Styles/example.css'
 
 // Image
-import imageForm from '../../src/assets/img/imageForm.jpg'
+// import imageForm from '../../src/assets/img/imageForm.jpg'
 
 
 const SixthSection = () => {
@@ -131,9 +131,6 @@ const SixthSection = () => {
                         </div>
                     </div>
                 </div>
-            <div className="sixth__section__image__container">
-            <img src={imageForm} alt="imagen formulario" className='sixth__section__image__form' />
-        </div>  
             </form>
         </div>
     )

@@ -5,7 +5,6 @@ import React from 'react'
 import '../../src/Styles/fourthSection.css'
 
 // Components
-import FourthSectionImgs from './FourthSectionImgs.jsx'
 import FourthSectionInfo from './FourthSectionInfo.jsx'
 
 // Img
