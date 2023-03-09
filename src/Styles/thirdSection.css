@@ -117,19 +117,16 @@
 
     .third__section__title{
         font-size: 1.1rem;
-        text-align: end;
     }
 
     .third__section__information{
         font-size: .8rem;
-        text-align: end;
 
     }
 
     .third__section__button{
         font-size: .8rem;
         width: 50%;
-        margin-left: 50% ;
     }
 
     .third__section__image{

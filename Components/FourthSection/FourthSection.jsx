@@ -8,11 +8,16 @@ import '../../src/Styles/fourthSection.css'
 import FourthSectionImgs from './FourthSectionImgs.jsx'
 import FourthSectionInfo from './FourthSectionInfo.jsx'
 
+// Img
+import collage from '../../src/assets/img/collage.png'
+
 const FourthSection = () => {
   return (
     <div className='fourth__section'>
     <div className='fourth__section__container'>
-      <FourthSectionImgs/>
+      <div className='fourth__section__image__container'>
+        <img src={collage} alt="collage" className='fourth__section__image' />
+      </div>
       <FourthSectionInfo/>
     </div>
     </div>
