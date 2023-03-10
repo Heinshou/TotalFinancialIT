@@ -22,8 +22,8 @@ const SecondSection = () => {
                         <h2 className='front__card__title'>Experiencia</h2>
                     </div>
                     <div className='big__back__card card_one'>
-                        Experiencia en proyectos tecnológicos para tomar mejores decisiones,
-                        potencializar resultados y financiar proyectos.
+                        <p> Experiencia en proyectos tecnológicos para tomar mejores decisiones,
+                            potencializar resultados y financiar proyectos. </p>
                     </div>
                 </div>
                 <div className='cards__sections2'>
@@ -32,8 +32,8 @@ const SecondSection = () => {
                         <h2 className='front__card__title'>Seguridad y Confianza</h2>
                     </div>
                     <div className='big__back__card card_one'>
-                        La entidad ofrece confiabilidad y experiencia para ser una pieza clave en proyectos,
-                        eliminando la burocracia y disminuyendo riesgos.
+                        <p> La entidad ofrece confiabilidad y experiencia para ser una pieza clave en proyectos,
+                            eliminando la burocracia y disminuyendo riesgos.</p>
                     </div>
                 </div>
                 <div className='cards__sections3'>
@@ -42,8 +42,8 @@ const SecondSection = () => {
                         <h2 className='front__card__title'>Impulsamos el crecimiento</h2>
                     </div>
                     <div className='big__back__card card_one'>
-                        La empresa ofrece financiamiento para adquirir o renovar activos de hardware informático 
-                        que optimicen la empresa o al personal.
+                        <p>La empresa ofrece financiamiento para adquirir o renovar activos de hardware informático
+                            que optimicen la empresa o al personal.</p>
                     </div>
                 </div>
                 <div className='cards__sections4'>
@@ -52,8 +52,8 @@ const SecondSection = () => {
                         <h2 className='front__card__title'>Agilidad</h2>
                     </div>
                     <div className='back__card card_one'>
-                        Contamos con atención personalizada, respuesta rápida y
-                        solución a tus necesidades.
+                        <p> Contamos con atención personalizada, respuesta rápida y
+                            solución a tus necesidades.</p>
                     </div>
                 </div>
                 <div className='cards__sections5'>
@@ -62,9 +62,9 @@ const SecondSection = () => {
                         <h2 className='front__card__title6'>Implementción de Nuevos Sistemas</h2>
                     </div>
                     <div className='back__card card_one'>
-                        Invierte en innovación y desarrolla o implementa
-                        productos y servicios nuevos de tecnologia para
-                        dar mas herramientas a tu negocio.
+                        <p> Invierte en innovación y desarrolla o implementa
+                            productos y servicios nuevos de tecnologia para
+                            dar mas herramientas a tu negocio.</p>
                     </div>
                 </div>
                 <div className='cards__sections6'>
@@ -73,9 +73,9 @@ const SecondSection = () => {
                         <h2 className='front__card__title6'>Equipo de Profesionales</h2>
                     </div>
                     <div className='back__card card_one'>
-                        Especialistas en el otorgamiento de asesoría
-                        financiera y tecnologica para que tu inversión te de
-                        mas por tu dinero.
+                        <p> Especialistas en el otorgamiento de asesoría
+                            financiera y tecnologica para que tu inversión te de
+                            mas por tu dinero.</p>
                     </div>
                 </div>
             </div>
