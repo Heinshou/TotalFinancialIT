@@ -29,7 +29,7 @@
     height: 25%;
     left: 20%;
     transform-style: preserve-3d;
-    transition: all 1.5s ease;
+    /* transition: all 1.5s ease; */
     background-color: white;
     color: #13468A;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
@@ -37,9 +37,9 @@
     margin-top: 3.5%;
 }
 
-.cards__sections1:hover{
+/* .cards__sections1:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .front__card{
     position: absolute;
@@ -55,7 +55,7 @@
     grid-template-rows: 40% 60%;
 }
 
-.big__back__card{
+/* .big__back__card{
     position: absolute;
     display: flex;
     width: 100%;
@@ -69,8 +69,8 @@
     justify-content: center;
     align-items: center;
     padding: 0px 15px 0px 15px;
-}
-
+} */
+/* 
 
 .back__card{
     position: absolute;
@@ -88,7 +88,7 @@
     padding: 0px 15px 0px 15px;
     /* margin: 10%;
     margin-top: 0px; */
-}
+/* } */ 
 
 .front__card__title{
     font-size: 1.7rem;
@@ -101,7 +101,7 @@
     width: 20%;
     height: 25%;
     transform-style: preserve-3d;
-    transition: all 1.5s ease;
+    /* transition: all 1.5s ease; */
     background-color: white;
     left: 60%;
     box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.1);
@@ -110,16 +110,16 @@
     margin-top: 3.5%;
 }
 
-.cards__sections2:hover{
+/* .cards__sections2:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .cards__sections3{
     position: absolute;
     width: 20%;
     height: 25%;
     transform-style: preserve-3d;
-    transition: all 1.5s ease;
+    /* transition: all 1.5s ease; */
     background-color: white;
     top: 33%;
     left: 20%;
@@ -129,16 +129,16 @@
     margin-top: 3.5%;
 }
 
-.cards__sections3:hover{
+/* .cards__sections3:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .cards__sections4{
     position: absolute;
     width: 20%;
     height: 25%;
     transform-style: preserve-3d;
-    transition: all 1.5s ease;
+    /* transition: all 1.5s ease; */
     background-color: white;
     top: 33%;
     left: 60%;
@@ -148,16 +148,16 @@
     margin-top:3.5%;
 }
 
-.cards__sections4:hover{
+/* .cards__sections4:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .cards__sections5{
     position: absolute;
     width: 20%;
     height: 25%;
     transform-style: preserve-3d;
-    transition: all 1.5s ease;
+    /* transition: all 1.5s ease; */
     background-color: white;
     top: 61%;
     left: 20%;
@@ -167,16 +167,16 @@
     margin-top: 3.5%;
 }
 
-.cards__sections5:hover{
+/* .cards__sections5:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .cards__sections6{
     position: absolute;
     width: 20%;
     height: 25%;
     transform-style: preserve-3d;
-    transition: all 1.5s ease;
+    /* transition: all 1.5s ease; */
     background-color: white;
     top: 61%;
     left: 60%;
@@ -192,9 +192,9 @@
     font-weight: 500;
 }
 
-.cards__sections6:hover{
+/* .cards__sections6:hover{
     transform: rotateY(180deg);
-}
+} */
 
 
 @media screen and (max-width: 1500px) {
