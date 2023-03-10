@@ -40,7 +40,7 @@ height: 45vh;
     justify-content: center;
     width:25%;
     height: 58%;
-    margin: 0px 5% 0px 0px;
+    margin: 0px 0% 0px 5%;
     box-shadow:
      0 -3em 3em rgba(0,0,0,0.1),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
