@@ -42,7 +42,7 @@ height: 45vh;
     height: 58%;
     margin: 0px 0% 0px 5%;
     box-shadow:
-     0 -3em 3em rgba(0,0,0,0.1),
+     0 3em 3em rgba(0,0,0,0.1),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
     
 }
@@ -54,6 +54,7 @@ height: 45vh;
     align-items: center;
     justify-content: center;
     color: #13468A;
+    margin-top: 5%;
 }
 
 
@@ -117,7 +118,7 @@ height: 45vh;
     }
 
     .fifth__section__cards__container{
-        height: 80%;
+        height: 65%;
     }
 
     .fifth__section__card{
